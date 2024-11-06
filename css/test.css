@@ -1,0 +1,65 @@
+@media screen and (max-width: 12000px){
+
+
+  html{
+    font-size: 14px;
+  }
+  body{
+    background-color: hsl(0, 0%, 8%);
+  }
+.profile{
+    margin: 5% 15%;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+}
+img{
+    border-radius: 150px;
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+}
+h1,h3{
+    text-transform: capitalize;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(0, 0%, 100%) ;
+}
+h3{
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+    font-size:15px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+p{
+    color: hsl(0, 0%, 100%) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MyButton{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%) ;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+}
+.MyButton:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color:  hsl(0, 0%, 8%);
+}
+}
+@media screen and (min-width: 375px){
+    .profile{
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+
+}
